@@ -1,0 +1,43 @@
+.phone-selector {
+  display: flex;
+  gap: 10px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+}
+.left-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-around;
+}
+.image {
+  width: 600px;
+  height: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 10%;
+    margin-top: 0;
+  }
+  .celeb-image {
+    width: 100%;
+  }
+}
